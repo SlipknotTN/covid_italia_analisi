@@ -4,8 +4,12 @@ Fonte: [dati protezione civile](https://github.com/pcm-dpc/COVID-19)
 
 ## Istruzioni
 
-TODO:
-- Script (clone) pull e unzip automatico del repository della protezione civile
+- Clonare il [repository con i dati della Protezione Civile](https://github.com/pcm-dpc/COVID-19) 
+  in una directory locale
+- Scaricare i dati aggiornati (i dati sono aggiornati giornalmente) con lo script
+  update_dati_prociv.sh <prociv_repo_local_dir>
+- Lanciare il server juopyter notebook ed accedere agli stessi, all'interno sarà necessario settare
+  il path <prociv_repo_local_dir> per il recupero dei dati
 
 ## Mancanze note nei dati
 
