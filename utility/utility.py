@@ -1,5 +1,7 @@
 def get_colore(articolo: str) -> str:
-    if articolo == "art.1":
+    if articolo == "art.1 comma 11":
+        return "white"
+    elif articolo == "art.1":
         return "yellow"
     elif articolo == "art.2":
         return "orange"
