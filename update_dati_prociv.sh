@@ -7,5 +7,4 @@ prociv_repo=$1
 
 cd "${prociv_repo}"
 git pull
-unzip "aree/geojson/dpc-covid-19-aree-nuove-g-json.zip"
-
+unzip -o "aree/geojson/dpc-covid-19-aree-nuove-g-json.zip" -d ./aree/geojson/
